@@ -9,9 +9,12 @@ class Point:
 
        """
 
-    def __init__(self, time: float, value: float):
+    def __init__(self, value: float, time: float):
         self.time = time
         self.value = int(value)
+
+    def __repr__(self):
+        return f"{self.value} [t={self.time}]"
 
 
 class ECGData:

@@ -13,6 +13,7 @@ class EdfReader:
 
     @:param path of file
     """
+
     def __init__(self, path: str):
         self.path = path
 
@@ -25,4 +26,4 @@ class EdfReader:
         values: ndarray = data.get_data()
         times: ndarray = data.times
 
-        return ECGData(values, times)
+        return ECGData(times, values)
