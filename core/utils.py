@@ -40,9 +40,11 @@ def findMagicLine(datas: List[Point]) -> float:
             if maxes[i] < mbMax:
                 maxes[i] = mbMax
                 break
+    for i in range(len(maxes)):
+        maxes[i] /= 3
 
     result: int = sum(maxes) / average
 
-    result *= (100-settings.config.INT_PROCENT_OTKNONENIYA)/100
+   # result *= (100-settings.config.INT_PROCENT_OTKNONENIYA)/100
 
     return result

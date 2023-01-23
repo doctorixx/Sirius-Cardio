@@ -18,6 +18,5 @@ if __name__ == '__main__':
     for pik in piks:
         if pik.value >= porog: out.append(pik)
 
-    print("Done")
 
-#privet
+    print("Done")
