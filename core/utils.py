@@ -45,6 +45,6 @@ def findMagicLine(datas: List[Point]) -> float:
 
     result: int = sum(maxes) / average
 
-   # result *= (100-settings.config.INT_PROCENT_OTKNONENIYA)/100
+    # result *= (100-settings.config.INT_PROCENT_OTKNONENIYA)/100
 
     return result
