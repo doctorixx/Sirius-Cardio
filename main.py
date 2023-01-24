@@ -1,10 +1,8 @@
 import numpy
-
 from core import utils
 from core.EdfReader import EdfReader
 from core.dataClasses import ECGData, Point
 from core.utils import findMagicLine
-import json
 
 if __name__ == '__main__':
     reader = EdfReader("records/1.edf")
@@ -49,10 +47,13 @@ if __name__ == '__main__':
             file.write(f"ЧСС третий минуты: {pulse[2]} уд./мин\n")
             file.write('\n')
             file.write('Интервалы (мс):')
+            file.write('\n')
             for j in range(len(out) - 1):
                 file.write(str(int((out[j + 1].time - out[j].time) * 1000)))
                 file.write('\n')
             file.close()
     except Exception as e:
         print("Ошибка при записи в файл")
+
+print("Done")
 
