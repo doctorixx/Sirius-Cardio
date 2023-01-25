@@ -60,4 +60,3 @@ class SiriusCardio:
         except Exception as e:
             print("Ошибка при записи в файл")
 
-    print("Done")
