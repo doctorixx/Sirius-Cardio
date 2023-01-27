@@ -3,7 +3,7 @@ By school 30 from Nighniy Novgorod
 
 # [RU]
 #### 1. Установка библиотек
-* Откройте командную строку(cmd)
+* Откройте командную строку(cmd) в дирректории с программой
 * Введите
 ```sh
 pip install -r requirements.txt
