@@ -43,8 +43,8 @@ pip install -r requirements.txt
 * Congratulations,you have installed all the needed for work libraries
 ***
 #### 2.Work whit cardio_cmd.py
-*Open command line(cmd) in the directory where the cardio_cmd.py file is located
-*Enter
+* Open command line(cmd) in the directory where the cardio_cmd.py file is located
+* Enter
 ```sh
 cardio_cmd.py [input_file] [output_file]
 ```
