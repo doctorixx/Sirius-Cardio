@@ -50,6 +50,7 @@ cardio_cmd.py [input_file] [output_file]
 ```
 [input_file]-cardiogram file path 
 [output_file]-path to the file in which all output data will be written
+
 Note: it is not necessary to open the command line in the same directory, but it is more convenient this way
 * Example
 ```sh
