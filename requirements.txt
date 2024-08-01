@@ -1,5 +1,5 @@
 appdirs==1.4.4
-certifi==2023.7.22
+certifi==2024.7.4
 charset-normalizer==3.0.1
 colorama==0.4.6
 contourpy==1.0.7
